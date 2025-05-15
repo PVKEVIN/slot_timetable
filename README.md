@@ -1,5 +1,7 @@
 # Ex03 Time Table
-## Date:
+
+## Registration no: 212224040159
+## Date: 22-04-2025
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,9 +26,123 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+<head>
+<title>Slot TimeTable- P Kevin 212224040159</title>
+</head>
+<body style="background-color:#dff0ec;">
+<img src="/static/logo.png" height="100" width="1450">
+<br>
+<br>
+<table align="center" width="540" cellspacing="20" cellpadding="4"
+border="5" bgcolor="#4ea1d4">
+<caption><b>Slot TimeTable- P Kevin 212224040159</b></caption>
+<br>
+<tr align="center">
+<th bgcolor="yellow">Day/Time</th>
+<th bgcolor="yellow">Monday</th>
+<th bgcolor="yellow">Tuesday</th>
+<th bgcolor="yellow">Wednesday</th>
+<th bgcolor="yellow">Thursday</th>
+<th bgcolor="yellow">Friday</th>
+<th bgcolor="yellow">Saturday</th>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">8-10</th>
+<td >FUNDAMENTALS OF AI</td>
+<td>FREE SLOT</td>
+<td>CAREER DEVELOPMENT SKILLS</td>
+<td>INTRODUCTION TO ML</td>
+<td>FREE SLOT</td>
+<td>INTRODUCTION TO ML</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">10-12</th>
+<td>BEEE</td>
+<td>FREE SLOT</td>
+<td>HUMAN VALUES</td>
+<td>REASONING ABILITY</td>
+<td>FUNDAMENTALS OF WEB</td>
+<td>PRINCIPLES OF CHEMISTRY</td>
+</tr>
+<tr>
+<th bgcolor="yellow">12-1</th>
+<td colspan="6" align="center">L U N C H</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">1-3</th>
+<td >FREE SLOT</td>
+<td>FREE SLOT</td>
+<td>MENTOR MEET</td>
+<td>PRINCIPLES OF CHEMISTRY</td>
+<td>FREE SLOT</td>
+<td>FREE SLOT</td>
 
-
+</tr>
+<tr align="center">
+<th bgcolor="yellow">3-5</th>
+<td >FREE SLOT</td>
+<td>FREE SLOT</td>
+<td>FUNDAMENTALS OF AI</td>
+<td>FUNDAMENTALS OF WEB</td>
+<td>BEEE</td>
+<td>FREE SLOT</td>
+</tr>
+</table>
+<br>
+<table align="center" cellspacing="2" cellpadding="4" border="2">
+<tr align="center" bgcolor="Slate gray">
+<th>S. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+<tr>
+    <td align="center">1.</td>
+    <td align="center">19AI414</td>
+    <td>FUNDAMENTALS OF WEB</td>
+</tr>
+<tr>
+    <td align="center">2.</td>
+    <td align="center">19AI405</td>
+    <td>FUNDAMENTALS OF AI</td>
+</tr>
+<tr>
+    <td align="center">3.</td>
+    <td align="center">19AI410</td>
+    <td>INTRODUCTION TO ML</td>
+</tr>
+<tr>
+    <td align="center">4.</td>
+    <td align="center">19EE305</td>
+    <td>BEEE</td>
+</tr>
+<tr>
+    <td align="center">5.</td>
+    <td align="center">19EY708</td>
+    <td>CAREER DEVELOPMENT SKILLS</td>
+</tr>
+<tr>
+    <td align="center">6.</td>
+    <td align="center">19HS801</td>
+    <td>HUMAN VALUES</td>
+</tr>
+<tr>
+    <td align="center">7.</td>
+    <td align="center">19CY205</td>
+    <td>PRINCIPLES OF CHEMISTRY</td>
+</tr>
+<tr>
+    <td align="center">8.</td>
+    <td align="center">19EY709</td>
+    <td>REASONING ABILITY</td>
+ </tr>
+</table>
+</body>
+</html>
+```
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/121d9f84-7a77-4b2a-832b-f09f9fe0b372)
 
 
 ## RESULT
